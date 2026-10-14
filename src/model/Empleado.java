@@ -1,11 +1,11 @@
-package com.nomina.modelo;
+package model;
 
 public class Empleado {
-    public int id;
-    public String nombre;
-    public double sueldoBase;
-    public double horasTrabajadas;
-    public double horasExtras;
+    private int id;
+    private String nombre;
+    private double sueldoBase;
+    private double horasTrabajadas;
+    private double horasExtras;
 
     public Empleado() {
     }
